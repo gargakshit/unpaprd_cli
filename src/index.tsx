@@ -1,12 +1,12 @@
-require("isomorphic-unfetch");
-const React = require("react");
-const { render, Color, Box } = require("ink");
-const Gradient = require("ink-gradient");
-const BigText = require("ink-big-text");
-const { default: SelectInput } = require("ink-select-input");
-const { default: TextInput } = require("ink-text-input");
-const WebTorrent = require("webtorrent-hybrid");
-const { join } = require("path");
+import "isomorphic-unfetch";
+import React from "react";
+import { render, Color, Box } from "ink";
+import Gradient from "ink-gradient";
+import BigText from "ink-big-text";
+import { default as SelectInput } from "ink-select-input";
+import { default as TextInput } from "ink-text-input";
+import WebTorrent from "webtorrent-hybrid";
+import { join } from "path";
 
 const client = new WebTorrent();
 

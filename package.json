@@ -1,11 +1,14 @@
 {
   "name": "unpaprd_cli",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Akshit Garg",
   "license": "AGPL-3.0-or-later",
   "private": false,
-  "bin": "index.js",
+  "bin": {
+    "unpaprd": "dist/index.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "package": "pkg ."
   },
@@ -22,6 +25,7 @@
     "webtorrent-hybrid": "^4.0.1"
   },
   "devDependencies": {
-    "pkg": "^4.4.2"
+    "pkg": "^4.4.2",
+    "typescript": "^3.7.5"
   }
 }
