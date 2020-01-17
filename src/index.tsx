@@ -69,7 +69,7 @@ const CLI = () => {
                 setDownloading(`Downloading ${item.label}...`);
                 client.add(
                   res.torrent,
-                  { path: join(__dirname, "./unpaprd_downloads/") },
+                  { path: join(process.cwd(), "./unpaprd_downloads/") },
                   torrent => {
                     torrent.on("download", () => {
                       setExtra(
