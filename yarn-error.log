@@ -2,7 +2,7 @@ Arguments:
   /Users/akshitgarg/.nvm/versions/node/v13.6.0/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js publish
 
 PATH: 
-  /Users/akshitgarg/.nvm/versions/node/v13.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/akshitgarg/.nvm/versions/node/v13.6.0/bin:/Users/akshitgarg/dev/flutter/bin:/Users/akshitgarg/Library/Android/sdk/tools/bin:/Users/akshitgarg/Library/Android/sdk/platform-tools:/Users/akshitgarg/dev/flutter/bin:/Users/akshitgarg/Library/Android/sdk/tools/bin:/Users/akshitgarg/Library/Android/sdk/platform-tools
+  /Users/akshitgarg/.nvm/versions/node/v13.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/akshitgarg/dev/flutter/bin:/Users/akshitgarg/Library/Android/sdk/tools/bin:/Users/akshitgarg/Library/Android/sdk/platform-tools
 
 Yarn version: 
   1.21.1
@@ -29,7 +29,7 @@ Trace:
 npm manifest: 
   {
     "name": "unpaprd_cli",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "dist/index.js",
     "author": "Akshit Garg",
     "license": "AGPL-3.0-or-later",
