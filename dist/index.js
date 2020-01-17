@@ -49,7 +49,7 @@ var CLI = function () {
                     .then(function (res) { return res.json(); })
                     .then(function (res) {
                     setDownloading("Downloading " + item.label + "...");
-                    client.add(res.torrent, { path: path_1.join(__dirname, "./unpaprd_downloads/") }, function (torrent) {
+                    client.add(res.torrent, { path: path_1.join(process.cwd(), "/unpaprd/") }, function (torrent) {
                         torrent.on("download", function () {
                             setExtra("Download Speed: " + (torrent.downloadSpeed / 1000000).toFixed(2) + " mb/sec\n" + torrent.numPeers + " peers");
                             setDownloading(item.label + " - " + Math.floor(torrent.progress * 10000) / 100 + "%");
