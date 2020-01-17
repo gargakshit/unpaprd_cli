@@ -1,14 +1,14 @@
 Arguments: 
-  /Users/akshitgarg/.nvm/versions/node/v12.14.1/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js publish
+  /Users/akshitgarg/.nvm/versions/node/v13.6.0/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js publish
 
 PATH: 
-  /Users/akshitgarg/.nvm/versions/node/v12.14.1/bin:/Users/akshitgarg/.nvm/versions/node/v12.14.1/bin:/Users/akshitgarg/.nvm/versions/node/v13.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/akshitgarg/.nvm/versions/node/v13.6.0/bin:/Users/akshitgarg/dev/flutter/bin:/Users/akshitgarg/Library/Android/sdk/tools/bin:/Users/akshitgarg/Library/Android/sdk/platform-tools:/Users/akshitgarg/dev/flutter/bin:/Users/akshitgarg/Library/Android/sdk/tools/bin:/Users/akshitgarg/Library/Android/sdk/platform-tools
+  /Users/akshitgarg/.nvm/versions/node/v13.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/akshitgarg/.nvm/versions/node/v13.6.0/bin:/Users/akshitgarg/dev/flutter/bin:/Users/akshitgarg/Library/Android/sdk/tools/bin:/Users/akshitgarg/Library/Android/sdk/platform-tools:/Users/akshitgarg/dev/flutter/bin:/Users/akshitgarg/Library/Android/sdk/tools/bin:/Users/akshitgarg/Library/Android/sdk/platform-tools
 
 Yarn version: 
   1.21.1
 
 Node version: 
-  12.14.1
+  13.6.0
 
 Platform: 
   darwin x64
@@ -16,20 +16,20 @@ Platform:
 Trace: 
   Error: canceled
       at Interface.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:136925:13)
-      at Interface.emit (events.js:223:5)
-      at Interface._ttyWrite (readline.js:885:16)
-      at ReadStream.onkeypress (readline.js:191:10)
-      at ReadStream.emit (events.js:223:5)
-      at emitKeys (internal/readline/utils.js:433:14)
+      at Interface.emit (events.js:321:20)
+      at Interface._ttyWrite (readline.js:881:16)
+      at ReadStream.onkeypress (readline.js:199:10)
+      at ReadStream.emit (events.js:321:20)
+      at emitKeys (internal/readline/utils.js:439:14)
       at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1151:36)
-      at ReadStream.emit (events.js:223:5)
-      at addChunk (_stream_readable.js:309:12)
+      at ReadStream.onData (readline.js:1149:36)
+      at ReadStream.emit (events.js:321:20)
+      at addChunk (_stream_readable.js:305:12)
 
 npm manifest: 
   {
     "name": "unpaprd_cli",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "main": "dist/index.js",
     "author": "Akshit Garg",
     "license": "AGPL-3.0-or-later",
