@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import "isomorphic-unfetch";
 import React from "react";
 import { render, Color, Box } from "ink";
